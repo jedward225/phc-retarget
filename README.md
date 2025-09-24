@@ -13,6 +13,11 @@ Modifications:
 
 ## Data preparation
 
+Download the smpl model first:
+```bash
+uv run gdown --folder https://drive.google.com/drive/folders/1eSfJma_5VuNqaw_IRE8xVn6UgAmvjoeT\?usp\=drive_link -O ./data/smpl
+```
+
 Under the `data/AMASS` folder, I have downloaded one motion file for instance:
 ```bash
 |-- data
